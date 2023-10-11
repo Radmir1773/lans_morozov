@@ -1,0 +1,3 @@
+VAR CONSTANT
+	d_t : REAL := 0.01;
+END_VAR

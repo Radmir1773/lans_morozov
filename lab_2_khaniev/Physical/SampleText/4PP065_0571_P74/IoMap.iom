@@ -1,0 +1,15 @@
+VAR_CONFIG
+	::Program:doorSM.direction AT %QX."X20DO9322".DigitalOutput01;
+	::Program:ledSM.led1 AT %QX."X20DO9322".DigitalOutput02;
+	::Program:ledSM.led2 AT %QX."X20DO9322".DigitalOutput03;
+	::Program:ledSM.led3 AT %QX."X20DO9322".DigitalOutput04;
+	::Program:doorSM.direction AT %IX."X20DI9371".DigitalInput01;
+	::Program:doorSM.sw1 AT %IX."X20DI9371".DigitalInput02;
+	::Program:doorSM.sw2 AT %IX."X20DI9371".DigitalInput03;
+	::Program:doorSM.sw3 AT %IX."X20DI9371".DigitalInput04;
+	::Program:doorSM.sw4 AT %IX."X20DI9371".DigitalInput05;
+	::Program:driveSM.state AT %IW."8I64xxxxxxx.00x-1".ETAD_Input;
+	::Program:driveSM.command AT %QW."8I64xxxxxxx.00x-1".CMDD_Output;
+	::Program:driveSM.speed AT %QW."8I64xxxxxxx.00x-1".LFRD_Output;
+	::Program:ledSM.led4 AT %QX."X20DO9322".DigitalOutput05;
+END_VAR

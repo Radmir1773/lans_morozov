@@ -1,0 +1,21 @@
+Tue May 18 16:05:30 2021
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Tue May 18 16:05:30 2021
+No ARsim registration found!
+
+Tue May 18 16:05:30 2021
+InstanceName: 01d74be67b0c6490
+
+Tue May 18 16:05:30 2021
+WorkingDirectory: C:\Users\admin\Desktop\coursework_almost_done_2_electric_bougalo\Temp\Simulation\Real\4PP065_0571_P74\
+
+Tue May 18 16:05:30 2021
+COMMAND_COLDSTART
+
+Tue May 18 16:05:33 2021
+Version: D4.52
+
+Tue May 18 16:05:37 2021
+COMMAND_TERMINATE
+

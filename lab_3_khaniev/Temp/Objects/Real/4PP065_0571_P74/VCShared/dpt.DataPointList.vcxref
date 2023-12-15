@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VCXReferenceDPList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <DataSource Name="Internal">
+      <DataPoint Reference="Source[global].Variable[Internal.Display.Brightness]">
+         <Name>Brightness</Name>
+         <Scope />
+         <PLCType>USINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>Brightness (0 - 100)</Description>
+         <ReferenceDescription>
+            <Scope Name="Display.Brightness" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.Display.Contrast]">
+         <Name>Contrast</Name>
+         <Scope />
+         <PLCType>USINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>Contrast (0 - 100)</Description>
+         <ReferenceDescription>
+            <Scope Name="Display.Contrast" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.Display.BackLight]">
+         <Name>BackLight</Name>
+         <Scope />
+         <PLCType>USINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>0 = backlight off / 1 = backlight on</Description>
+         <ReferenceDescription>
+            <Scope Name="Display.BackLight" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.Connection.IPAddress]">
+         <Name>IPAddress</Name>
+         <Scope />
+         <PLCType>STRING</PLCType>
+         <DerivationPlcType />
+         <DataType>STRING</DataType>
+         <ArrayType />
+         <StringLength>65535</StringLength>
+         <Description>IP-Address</Description>
+         <ReferenceDescription>
+            <Scope Name="Connection.IPAddress" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.Connection.NodeNumber]">
+         <Name>NodeNumber</Name>
+         <Scope />
+         <PLCType>USINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>Node Number</Description>
+         <ReferenceDescription>
+            <Scope Name="Connection.NodeNumber" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.Temperature.CPU]">
+         <Name>CPU</Name>
+         <Scope />
+         <PLCType>USINT</PLCType>
+         <DerivationPlcType />
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>Temperature of Processor</Description>
+         <ReferenceDescription>
+            <Scope Name="Temperature.CPU" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.Temperature.Room]">
+         <Name>Room</Name>
+         <Scope />
+         <PLCType>USINT</PLCType>
+         <DerivationPlcType />
+         <DataType>SCALED</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>Temperature inside case</Description>
+         <ReferenceDescription>
+            <Scope Name="Temperature.Room" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.DateTime.Day]">
+         <Name>Day</Name>
+         <Scope />
+         <PLCType>UINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>System Time - Day</Description>
+         <ReferenceDescription>
+            <Scope Name="DateTime.Day" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.DateTime.Hour]">
+         <Name>Hour</Name>
+         <Scope />
+         <PLCType>UINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>System Time - Hour</Description>
+         <ReferenceDescription>
+            <Scope Name="DateTime.Hour" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.DateTime.Minute]">
+         <Name>Minute</Name>
+         <Scope />
+         <PLCType>UINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>System Time - Minute</Description>
+         <ReferenceDescription>
+            <Scope Name="DateTime.Minute" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.DateTime.Month]">
+         <Name>Month</Name>
+         <Scope />
+         <PLCType>UINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>System Time - Month</Description>
+         <ReferenceDescription>
+            <Scope Name="DateTime.Month" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.DateTime.Second]">
+         <Name>Second</Name>
+         <Scope />
+         <PLCType>UINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>System Time - Second</Description>
+         <ReferenceDescription>
+            <Scope Name="DateTime.Second" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.DateTime.Year]">
+         <Name>Year</Name>
+         <Scope />
+         <PLCType>UINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>System Time - Year</Description>
+         <ReferenceDescription>
+            <Scope Name="DateTime.Year" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.DateTime.DayOfWeek]">
+         <Name>DayOfWeek</Name>
+         <Scope />
+         <PLCType>UINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>System Time - Day of week</Description>
+         <ReferenceDescription>
+            <Scope Name="DateTime.DayOfWeek" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.Memory.LargestFreeBlock]">
+         <Name>LargestFreeBlock</Name>
+         <Scope />
+         <PLCType>UDINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>Largest free block in memory</Description>
+         <ReferenceDescription>
+            <Scope Name="Memory.LargestFreeBlock" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.Memory.TotalFree]">
+         <Name>TotalFree</Name>
+         <Scope />
+         <PLCType>UDINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>Total free memory</Description>
+         <ReferenceDescription>
+            <Scope Name="Memory.TotalFree" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[Internal.Memory.TotalInstalled]">
+         <Name>TotalInstalled</Name>
+         <Scope />
+         <PLCType>UDINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description>Total memory of system</Description>
+         <ReferenceDescription>
+            <Scope Name="Memory.TotalInstalled" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+   </DataSource>
+   <DataSource Name="DataSource">
+      <DataPoint Reference="Source[global].Variable[DataSource.Trajectory.enable]">
+         <Name>enable</Name>
+         <Scope />
+         <PLCType>BOOL</PLCType>
+         <DerivationPlcType />
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Trajectory.enable" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[DataSource.Trajectory.length]">
+         <Name>length</Name>
+         <Scope />
+         <PLCType>UINT</PLCType>
+         <DerivationPlcType />
+         <DataType>INTEGER</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Trajectory.length" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+      <DataPoint Reference="Source[global].Variable[DataSource.Stop.enable]">
+         <Name>enable</Name>
+         <Scope />
+         <PLCType>BOOL</PLCType>
+         <DerivationPlcType />
+         <DataType>BOOL</DataType>
+         <ArrayType />
+         <StringLength>0</StringLength>
+         <Description />
+         <ReferenceDescription>
+            <Scope Name="Stop.enable" DSFolderType="Struct" />
+         </ReferenceDescription>
+      </DataPoint>
+   </DataSource>
+</VCXReferenceDPList>

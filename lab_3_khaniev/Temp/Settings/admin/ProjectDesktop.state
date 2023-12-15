@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?AutomationStudio Version=3.0?>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Real"/><ConfigurationFiles ConfigurationName="Real" ActiveConfigurationFile="\Logical\User_Interface\Main.c"><ConfigurationFile Placement="\Logical\Libraries\Library\FB_power.c,Libraries.Library,2,44,0,1,-1,-1,-1,-1,2,24,632,696"/><ConfigurationFile Placement="\Logical\Libraries\Library\FB_move.c,Libraries.Library,2,44,0,1,-1,-1,-1,-1,2,24,632,696"/><ConfigurationFile Placement="\Logical\Libraries\Library\FB_Trajectory.c,Libraries.Library,2,44,0,1,-1,-1,-1,-1,2,24,632,696"/><ConfigurationFile Placement="\Logical\User_Interface\Main.c,User_Interface,2,44,0,1,-1,-1,-1,-1,2,24,632,696"/></ConfigurationFiles></Project>

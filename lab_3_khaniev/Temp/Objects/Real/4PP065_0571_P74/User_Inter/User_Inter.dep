@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Library/Library.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Library/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.fun
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/User_Interface/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10man/Acp10man.typ

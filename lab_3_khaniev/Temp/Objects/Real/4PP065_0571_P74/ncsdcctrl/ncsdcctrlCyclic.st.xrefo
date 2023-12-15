@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Crossref Scope="ncsdcctrl" AppMod="">
+	<Vars>
+		<Var Name="gAxisTest_DiDoIf.iLifeCntReference" Scope="Global" Type="SdcDiDoIf_typ">
+			<File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+				<Pos L="7" C="2" PS="Ln:7, Col:2" A="W"/>
+				<Pos L="7" C="40" PS="Ln:7, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAxisTest_DiDoIf.iLifeCntNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+			<File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+				<Pos L="8" C="2" PS="Ln:8, Col:2" A="W"/>
+				<Pos L="8" C="40" PS="Ln:8, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAxisTest_DiDoIf.iLifeCntPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+			<File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+				<Pos L="9" C="2" PS="Ln:9, Col:2" A="W"/>
+				<Pos L="9" C="40" PS="Ln:9, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DiDoIf.iLifeCntReference" Scope="Global" Type="SdcDiDoIf_typ">
+			<File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+				<Pos L="17" C="2" PS="Ln:17, Col:2" A="W"/>
+				<Pos L="17" C="38" PS="Ln:17, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DiDoIf.iLifeCntNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+			<File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+				<Pos L="18" C="2" PS="Ln:18, Col:2" A="W"/>
+				<Pos L="18" C="38" PS="Ln:18, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAxis03_DiDoIf.iLifeCntPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+			<File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+				<Pos L="19" C="2" PS="Ln:19, Col:2" A="W"/>
+				<Pos L="19" C="38" PS="Ln:19, Col:38" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

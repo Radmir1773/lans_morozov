@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<Crossref Scope="ncsdcctrl" AppMod="">
+  <Vars>
+    <Var Name="gAxisTest.size" Scope="Global" Type="ACP10AXIS_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="13" C="2" PS="Ln:13, Col:2" A="W" />
+        <Pos L="13" C="41" PS="Ln:13, Col:41" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxisTest_HW.DrvIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="7" C="2" PS="Ln:7, Col:2" A="W" />
+      </File>
+    </Var>
+    <Var Name="gAxisTest_HW.DrvIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="8" C="14" PS="Ln:8, Col:14" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxisTest_HW.DiDoIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="9" C="2" PS="Ln:9, Col:2" A="W" />
+      </File>
+    </Var>
+    <Var Name="gAxisTest_HW.DiDoIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="10" C="14" PS="Ln:10, Col:14" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxisTest_DrvIf.iLifeCnt" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="14" C="2" PS="Ln:14, Col:2" A="W" />
+        <Pos L="14" C="41" PS="Ln:14, Col:41" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxisTest_DiDoIf.iLifeCntDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="15" C="2" PS="Ln:15, Col:2" A="W" />
+        <Pos L="15" C="41" PS="Ln:15, Col:41" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxisTest_ModuleOk" Scope="Global" Type="BOOL">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="16" C="2" PS="Ln:16, Col:2" A="W" />
+        <Pos L="16" C="41" PS="Ln:16, Col:41" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxis03.size" Scope="Global" Type="ACP10AXIS_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="37" C="2" PS="Ln:37, Col:2" A="W" />
+        <Pos L="37" C="39" PS="Ln:37, Col:39" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_HW.DrvIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="31" C="2" PS="Ln:31, Col:2" A="W" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_HW.DrvIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="32" C="14" PS="Ln:32, Col:14" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_HW.DiDoIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="33" C="2" PS="Ln:33, Col:2" A="W" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_HW.DiDoIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="34" C="14" PS="Ln:34, Col:14" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DrvIf.iLifeCnt" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="38" C="2" PS="Ln:38, Col:2" A="W" />
+        <Pos L="38" C="39" PS="Ln:38, Col:39" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iLifeCntDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="39" C="2" PS="Ln:39, Col:2" A="W" />
+        <Pos L="39" C="39" PS="Ln:39, Col:39" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_ModuleOk" Scope="Global" Type="BOOL">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="40" C="2" PS="Ln:40, Col:2" A="W" />
+        <Pos L="40" C="39" PS="Ln:40, Col:39" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxisTest_DiDoIf.iLifeCntReference" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+        <Pos L="7" C="2" PS="Ln:7, Col:2" A="W" />
+        <Pos L="7" C="40" PS="Ln:7, Col:40" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxisTest_DiDoIf.iLifeCntNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+        <Pos L="8" C="2" PS="Ln:8, Col:2" A="W" />
+        <Pos L="8" C="40" PS="Ln:8, Col:40" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxisTest_DiDoIf.iLifeCntPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+        <Pos L="9" C="2" PS="Ln:9, Col:2" A="W" />
+        <Pos L="9" C="40" PS="Ln:9, Col:40" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iLifeCntReference" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+        <Pos L="17" C="2" PS="Ln:17, Col:2" A="W" />
+        <Pos L="17" C="38" PS="Ln:17, Col:38" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iLifeCntNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+        <Pos L="18" C="2" PS="Ln:18, Col:2" A="W" />
+        <Pos L="18" C="38" PS="Ln:18, Col:38" A="R" />
+      </File>
+    </Var>
+    <Var Name="gAxis03_DiDoIf.iLifeCntPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlCyclic.st">
+        <Pos L="19" C="2" PS="Ln:19, Col:2" A="W" />
+        <Pos L="19" C="38" PS="Ln:19, Col:38" A="R" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="ncSDC_DRVSERVO16" Scope="Global" Type="UINT">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="7" C="28" PS="Ln:7, Col:28" A="R" />
+        <Pos L="31" C="26" PS="Ln:31, Col:26" A="R" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DIDO" Scope="Global" Type="UINT">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="9" C="29" PS="Ln:9, Col:29" A="R" />
+        <Pos L="33" C="27" PS="Ln:33, Col:27" A="R" />
+      </File>
+    </Const>
+  </Consts>
+  <Enums>
+  </Enums>
+  <Funcs>
+    <Func Name="strcpy" Lib="asstring">
+      <File Name="C:\Users\admin\Documents\KRBO-02-20\Coursework\coursework_square_comment\Logical\ncsdcctrl\ncsdcctrlInit.st">
+        <Pos L="8" C="2" PS="Ln:8, Col:2" />
+        <Pos L="10" C="2" PS="Ln:10, Col:2" />
+        <Pos L="32" C="2" PS="Ln:32, Col:2" />
+        <Pos L="34" C="2" PS="Ln:34, Col:2" />
+      </File>
+    </Func>
+  </Funcs>
+  <Actions>
+  </Actions>
+</Crossref>

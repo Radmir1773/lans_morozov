@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tracepoints>
+  <Tracepoint>
+    <Enabled>true</Enabled>
+    <File>Logical/Libraries/Library/FB_Trajectory.c</File>
+    <Line>211</Line>
+    <Condition></Condition>
+    <Task>Library</Task>
+  </Tracepoint>
+</Tracepoints>

@@ -1,0 +1,13 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Physical/Real/4PP065_0571_P74/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="ncsdcctrl" Source="ncsdcctrl.prg" />
+      <Task Name="SDCAxisCtr" Source="SDCAxisCtrl_X.prg" />
+      <Task Name="SDCAxisCt2" Source="SDCAxisCtrl_Z.prg" />
+      <Task Name="SDCAxisCt1" Source="SDCAxisCtrl_Y.prg" />
+      <Task Name="User_Inter" Source="User_Interface.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

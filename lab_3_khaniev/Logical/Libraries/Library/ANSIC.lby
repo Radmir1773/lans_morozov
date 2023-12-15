@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<Library SubType="ANSIC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>Types.typ</File>
+    <File>Library.fun</File>
+    <File>FB_Motor.c</File>
+    <File>FB_Controller.c</File>
+    <File>FB_Integrator.c</File>
+    <File>FB_Endswitch.c</File>
+    <File>FB_Axis.c</File>
+    <File>FB_power.c</File>
+    <File>FB_move.c</File>
+    <File>FB_Trajectory.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="Runtime" />
+    <Dependency ObjectName="Operator" />
+    <Dependency ObjectName="AsIecCon" />
+    <Dependency ObjectName="astime" />
+    <Dependency ObjectName="asstring" />
+    <Dependency ObjectName="AsIOTime" />
+    <Dependency ObjectName="brsystem" />
+    <Dependency ObjectName="sys_lib" />
+    <Dependency ObjectName="AsMath" />
+    <Dependency ObjectName="DataObj" />
+    <Dependency ObjectName="AsArLog" />
+    <Dependency ObjectName="FileIO" />
+    <Dependency ObjectName="AsArProf" />
+    <Dependency ObjectName="AsMem" />
+    <Dependency ObjectName="Acp10man" />
+    <Dependency ObjectName="Acp10par" />
+    <Dependency ObjectName="NcGlobal" />
+    <Dependency ObjectName="Acp10sim" />
+    <Dependency ObjectName="Acp10_MC" />
+    <Dependency ObjectName="Acp10sdc" />
+    <Dependency ObjectName="Arnc0man" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Crossref Scope="Libraries.Library" AppMod="">
+  <Vars />
+  <Consts />
+  <Funcs>
+    <Func Name="FB_Integrator" Lib="">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/Libraries/Library/FB_Motor.c">
+        <Pos L="19" C="2" PS=" Ln:19, Col:2" />
+        <Pos L="22" C="2" PS=" Ln:22, Col:2" />
+      </File>
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/Libraries/Library/FB_Controller.c">
+        <Pos L="18" C="2" PS=" Ln:18, Col:2" />
+      </File>
+    </Func>
+    <Func Name="MC_Power" Lib="">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/Libraries/Library/FB_power.c">
+        <Pos L="63" C="2" PS=" Ln:63, Col:2" />
+      </File>
+    </Func>
+    <Func Name="MC_Home" Lib="">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/Libraries/Library/FB_power.c">
+        <Pos L="64" C="2" PS=" Ln:64, Col:2" />
+      </File>
+    </Func>
+    <Func Name="MC_MoveAdditive" Lib="">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/Libraries/Library/FB_move.c">
+        <Pos L="58" C="2" PS=" Ln:58, Col:2" />
+      </File>
+    </Func>
+    <Func Name="FB_move" Lib="">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/Libraries/Library/FB_Trajectory.c">
+        <Pos L="113" C="2" PS=" Ln:113, Col:2" />
+      </File>
+    </Func>
+    <Func Name="FB_power" Lib="">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/Libraries/Library/FB_Trajectory.c">
+        <Pos L="114" C="2" PS=" Ln:114, Col:2" />
+        <Pos L="115" C="2" PS=" Ln:115, Col:2" />
+      </File>
+    </Func>
+  </Funcs>
+</Crossref>

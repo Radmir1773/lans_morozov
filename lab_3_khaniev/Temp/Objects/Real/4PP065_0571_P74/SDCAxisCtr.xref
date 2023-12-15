@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Crossref Scope="SDCAxisCtrl_X" AppMod="">
+  <Vars>
+    <Var Name="AxisX_HW.EncIf1_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="13" C="10" A="W" PS=" Ln:13, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DiDoIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="14" C="10" A="W" PS=" Ln:14, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DrvIf_Typ" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="15" C="10" A="W" PS=" Ln:15, Col:10" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.EncIf1_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="18" C="17" A="RW" PS=" Ln:18, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DrvIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="19" C="17" A="RW" PS=" Ln:19, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisX_HW.DiDoIf_Name" Scope="Global" Type="SdcHwCfg_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="20" C="17" A="RW" PS=" Ln:20, Col:17" />
+      </File>
+    </Var>
+    <Var Name="AxisX_EncIf.iEncOK" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="23" C="13" A="W" PS=" Ln:23, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.iDrvOK" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="24" C="13" A="W" PS=" Ln:24, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.iStatusEnable" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="25" C="13" A="W" PS=" Ln:25, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="26" C="14" A="W" PS=" Ln:26, Col:14" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.fb_controller" Scope="Local" Type="FB_Controller">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="54" C="17" A="RW" PS=" Ln:54, Col:17" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.fb_controller.dt" Scope="Local" Type="FB_Controller">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="28" C="15" A="W" PS=" Ln:28, Col:15" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.fb_controller.k_i" Scope="Local" Type="FB_Controller">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="29" C="15" A="W" PS=" Ln:29, Col:15" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.fb_controller.k_p" Scope="Local" Type="FB_Controller">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="30" C="15" A="W" PS=" Ln:30, Col:15" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.fb_controller.max_abs_value" Scope="Local" Type="FB_Controller">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="31" C="15" A="W" PS=" Ln:31, Col:15" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.pwm_period" Scope="Local" Type="UINT">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="33" C="2" A="W" PS=" Ln:33, Col:2" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="38" C="11" A="RW" PS=" Ln:38, Col:11" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.coil_pwm_value" Scope="Local" Type="INT">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="39" C="2" A="W" PS=" Ln:39, Col:2" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.coil_powered" Scope="Local" Type="BOOL">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="39" C="19" A="R" PS=" Ln:39, Col:19" />
+      </File>
+    </Var>
+    <Var Name="AxisX_EncIf.iActTime" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="45" C="13" A="W" PS=" Ln:45, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_EncIf.iActPos" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="46" C="13" A="W" PS=" Ln:46, Col:13" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.counter" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="46" C="30" A="R" PS=" Ln:46, Col:30" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="47" C="14" A="W" PS=" Ln:47, Col:14" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.endswitch_b_reached" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="47" C="33" A="R" PS=" Ln:47, Col:33" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="48" C="14" A="W" PS=" Ln:48, Col:14" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.endswitch_a_reached" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="48" C="33" A="R" PS=" Ln:48, Col:33" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.fb_controller.in" Scope="Local" Type="FB_Controller">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="49" C="15" A="W" PS=" Ln:49, Col:15" />
+        <Pos L="51" C="19" A="R" PS=" Ln:51, Col:19" />
+        <Pos L="51" C="48" A="R" PS=" Ln:51, Col:48" />
+        <Pos L="51" C="79" A="W" PS=" Ln:51, Col:79" />
+        <Pos L="52" C="15" A="W" PS=" Ln:52, Col:15" />
+        <Pos L="52" C="34" A="R" PS=" Ln:52, Col:34" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.oSetPos" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="49" C="32" A="R" PS=" Ln:49, Col:32" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.min_task" Scope="Local" Type="INT">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="51" C="23" A="R" PS=" Ln:51, Col:23" />
+        <Pos L="51" C="54" A="R" PS=" Ln:51, Col:54" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.speed" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="52" C="59" A="R" PS=" Ln:52, Col:59" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.axis_X.pwm_value" Scope="Local" Type="FB_Axis">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="56" C="8" A="W" PS=" Ln:56, Col:8" />
+      </File>
+    </Var>
+    <Var Name="SDCAxisCtr.fb_controller.out" Scope="Local" Type="FB_Controller">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="56" C="34" A="R" PS=" Ln:56, Col:34" />
+      </File>
+    </Var>
+    <Var Name="AxisX_EncIf.iLifeCnt" Scope="Global" Type="SdcEncIf16_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="61" C="13" A="W" PS=" Ln:61, Col:13" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntDriveEnable" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="62" C="14" A="W" PS=" Ln:62, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntDriveReady" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="63" C="14" A="W" PS=" Ln:63, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntNegHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="64" C="14" A="W" PS=" Ln:64, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntPosHwEnd" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="65" C="14" A="W" PS=" Ln:65, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DiDoIf.iLifeCntReference" Scope="Global" Type="SdcDiDoIf_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="66" C="14" A="W" PS=" Ln:66, Col:14" />
+      </File>
+    </Var>
+    <Var Name="AxisX_DrvIf.iLifeCnt" Scope="Global" Type="SdcDrvIf16_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="67" C="13" A="W" PS=" Ln:67, Col:13" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts>
+    <Const Name="ncSDC_ENC16" Scope="Global" Type="UINT">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="13" C="24" A="R" PS=" Ln:13, Col:24" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DRVSERVO16" Scope="Global" Type="UINT">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="15" C="23" A="R" PS=" Ln:15, Col:23" />
+      </File>
+    </Const>
+    <Const Name="ncSDC_DIDO" Scope="Global" Type="UINT">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="14" C="24" A="R" PS=" Ln:14, Col:24" />
+      </File>
+    </Const>
+  </Consts>
+  <Funcs>
+    <Func Name="FB_Axis" Lib="">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="38" C="2" PS=" Ln:38, Col:2" />
+      </File>
+    </Func>
+    <Func Name="AsIOTimeCyclicStart" Lib="">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="45" C="31" PS=" Ln:45, Col:31" />
+      </File>
+    </Func>
+    <Func Name="FB_Controller" Lib="">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/SDCAxisCtrl_X/Main.c">
+        <Pos L="54" C="2" PS=" Ln:54, Col:2" />
+      </File>
+    </Func>
+  </Funcs>
+</Crossref>

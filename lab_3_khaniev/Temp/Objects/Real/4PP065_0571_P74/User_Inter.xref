@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Crossref Scope="User_Interface" AppMod="">
+  <Vars>
+    <Var Name="Trajectory" Scope="Global" Type="FB_Trajectory">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/User_Interface/Main.c">
+        <Pos L="21" C="17" A="RW" PS=" Ln:21, Col:17" />
+      </File>
+    </Var>
+    <Var Name="Trajectory.AxisY" Scope="Global" Type="FB_Trajectory">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/User_Interface/Main.c">
+        <Pos L="11" C="12" A="W" PS=" Ln:11, Col:12" />
+      </File>
+    </Var>
+    <Var Name="AxisY" Scope="Global" Type="ACP10AXIS_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/User_Interface/Main.c">
+        <Pos L="11" C="22" A="RW" PS=" Ln:11, Col:22" />
+      </File>
+    </Var>
+    <Var Name="Trajectory.AxisZ" Scope="Global" Type="FB_Trajectory">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/User_Interface/Main.c">
+        <Pos L="12" C="12" A="W" PS=" Ln:12, Col:12" />
+      </File>
+    </Var>
+    <Var Name="AxisZ" Scope="Global" Type="ACP10AXIS_typ">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/User_Interface/Main.c">
+        <Pos L="12" C="22" A="RW" PS=" Ln:12, Col:22" />
+      </File>
+    </Var>
+    <Var Name="Trajectory.length" Scope="Global" Type="FB_Trajectory">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/User_Interface/Main.c">
+        <Pos L="15" C="12" A="W" PS=" Ln:15, Col:12" />
+      </File>
+    </Var>
+    <Var Name="Move_axis.length" Scope="Global" Type="FB_move">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/User_Interface/Main.c">
+        <Pos L="16" C="11" A="W" PS=" Ln:16, Col:11" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts />
+  <Funcs>
+    <Func Name="FB_Trajectory" Lib="">
+      <File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical/User_Interface/Main.c">
+        <Pos L="21" C="2" PS=" Ln:21, Col:2" />
+      </File>
+    </Func>
+  </Funcs>
+</Crossref>

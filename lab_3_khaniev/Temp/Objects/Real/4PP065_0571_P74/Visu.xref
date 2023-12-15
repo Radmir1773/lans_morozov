@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0?>
+<CrossRef Scope="Visu" xmlns="http://br-automation.co.at/AS/VC/Crossreference">
+	<Vars>
+		<Var Name="Trajectory.enable" Scope="Global" Type="BOOL" Desc="">
+			<File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical//Visu/VCObject.vc">
+				<Pos L="0" C="0" PS="Source[local].Page[Init_Page].Layer[Default].VirtualKey[%embVirtualKey_1].Action[Action_0].Property[ValueDatapoint]" A="RW" O="ValueDatapoint"/>
+			</File>
+		</Var>
+		<Var Name="Trajectory.length" Scope="Global" Type="UINT" Desc="">
+			<File Name="C:/Users/admin/Documents/KRBO-02-20/Coursework/coursework_square_comment/Logical//Visu/VCObject.vc">
+				<Pos L="0" C="0" PS="Source[local].Page[Init_Page].Layer[Default].Control[Numeric_3].Property[ValueDatapoint]" A="RW" O="ValueDatapoint"/>
+			</File>
+		</Var>
+	</Vars>
+</CrossRef>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toc Version="2" MinorVersion="0">
+	<Application>
+		<Class Name="AddonsData">
+			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
+				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
+					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="OpcUaMap.uar.gz" Size="593" HashValue="A06FCF16EAF2C3A42B6C7BCD1CA2F72A" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="plc.br.pv.uanodeset" Size="7103" HashValue="682E7CDF6F09940F70D6CA1CC158D516" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="plc.plcopen.pv.uanodeset" Size="19824" HashValue="0ACC12204AA326E4FC509E697ACBB201" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="plc.uanodeset" Size="67077" HashValue="DCE8C1A8096A925A9DCF5ADE9FD8EC20" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+				</Folder>
+			</Folder>
+		</Class>
+		<Class Name="Os">
+			<Folder Name="Brm" ProjectDependent="1" IgnoreDifference="0">
+				<File Name="@cfAR000.br" Size="4340" HashValue="542A84304C904FCF67284BCF987804F4" ProjectDependent="1" IgnoreDifference="0" />
+				<File Name="@sbAR000.br" Size="2292" HashValue="5E88E59DCE77BEC27CB57B78586C3807" ProjectDependent="1" IgnoreDifference="0" />
+			</Folder>
+			<File Name="InaFrms.dll" Size="98304" HashValue="BCBB8AB4B7168E2BB538CF86E5B742A3" ProjectDependent="1" IgnoreDifference="0" />
+			<Folder Name="System" ProjectDependent="1" IgnoreDifference="0">
+				<Folder Name="BASE" ProjectDependent="1" IgnoreDifference="0">
+					<Folder Name="COMPONENTS" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="ArLcTextP.br" Size="537344" HashValue="E05F098D39012CDCD0A3DBA9B9047B54" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="ArUnitSys.br" Size="476228" HashValue="CE3F96837303ADA6203FFEA1FCD8E225" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+					<Folder Name="HWD" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="AsHwdSimulation.xml.gz" Size="12831" HashValue="E25EA89861FF012BAD9AB20964F4504F" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="AsHwdhw_upl.xml.gz" Size="16248" HashValue="3D670C8D5B6BB473548A2C2C862E1A2A" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+				</Folder>
+				<Folder Name="SDM" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="arsdm.tar.gz" Size="516872" HashValue="2B3256A7CE8842852F31F27D029CDA73" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="TOC" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="ftoc.xml" Size="821" HashValue="F83AEC703141D083AB19580424BF781A" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="WEBSERV" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="ArWebServ.br" Size="108680" HashValue="1B018D0D2E109DDBFACB14531E5B8EEE" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+			</Folder>
+			<File Name="arsimproxy.dll" Size="211456" HashValue="777B00730C5E4F35BB5698A94D96DAFF" ProjectDependent="1" IgnoreDifference="0" />
+		</Class>
+		<Memory Name="SYSROM">
+			<Module Name="::$$sysconf" Type="129" Size="69724" Modified="2023-12-13 18:20:38" Version="4.90" ProjectDependent="1" Reboot="1" />
+			<Module Name="::TCData" Type="209" Size="3769168" Modified="2023-12-13 18:20:41" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arconfig" Type="132" Size="448" Modified="2023-12-13 18:20:38" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::asfw" Type="67" Size="128" Modified="2023-12-13 18:20:38" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwd" Type="67" Size="524" Modified="2023-12-13 18:20:38" Version="1.00" ProjectDependent="1" Reboot="1" />
+		</Memory>
+		<Memory Name="USERROM">
+			<Module Name="::FWRules" Type="136" Size="456" Modified="2023-12-13 18:20:38" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Role" Type="136" Size="760" Modified="2023-12-13 18:20:37" Version="1.00" ProjectDependent="1" />
+			<Module Name="::URTKLib" Type="18" Size="34584" Modified="2023-12-13 18:20:30" Version="1.00" ProjectDependent="1" />
+			<Module Name="::URTKPrg" Type="17" Size="6720" Modified="2023-12-13 21:28:38" Version="1.00" ProjectDependent="1" />
+			<Module Name="::User" Type="136" Size="648" Modified="2023-12-13 18:20:37" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ashwac" Type="136" Size="212" Modified="2023-12-13 18:20:37" Version="1.00" ProjectDependent="1" />
+			<Module Name="::iomap" Type="50" Size="304" Modified="2023-12-13 18:20:38" Version="1.00" ProjectDependent="1" />
+			<Module Name="::runtime" Type="18" Size="29340" Modified="2020-11-19 10:23:47" Version="4.90" ProjectDependent="1" />
+			<Module Name="::sys_lib" Type="18" Size="19832" Modified="2020-11-19 10:23:53" Version="4.90" ProjectDependent="1" />
+			<Module Name="::udbdef" Type="210" Size="70264" Modified="2014-04-10 10:00:00" Version="0.01" ProjectDependent="1" />
+		</Memory>
+	</Application>
+</Toc>

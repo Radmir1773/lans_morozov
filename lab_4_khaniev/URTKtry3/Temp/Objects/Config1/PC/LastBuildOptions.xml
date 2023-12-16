@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9" WorkingVersion="4.9"?>
+<RuleSetOptions UsesUTCTime="True">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\opcuamap\opcuamap.uar.gz">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\connectivity\opcua\opcuamap.uad" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\variables.var" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.sw" LastWriteTime="2023-12-13 17:49:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\Connectivity\OpcUA\OpcUaMap.uad&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\OpcUaMap\OpcUaMap.uar.gz&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; -B C4.90 -c Config1 -P &quot;$(AS_PROJECT_PATH)&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\ashwac.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ashwac.br&quot; -L &quot;AsIecCon: V*, astime: V*, operator: V*, runtime: V*, sys_lib: V*, URTKLib: V*&quot; -c &quot;Config1&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -M IA32 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; -T SG4 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\sysconf.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -c &quot;Config1&quot; -sysconf -S &quot;PC&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\sysconf.br&quot; -T SG4 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asfw.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="d:\programs\bandr49\as49\upgrades\modified.txt" LastWriteTime="2020-11-19 13:46:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;PC&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\asfw.br&quot; -T SG4 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -firmware -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\ashwd.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="d:\programs\bandr49\as49\upgrades\modified.txt" LastWriteTime="2020-11-19 13:46:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;PC&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ashwd.br&quot; -T SG4 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -hwd -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\arconfig.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\iomap.iom" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\IoMap.iom&quot;  -arconfig -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -c &quot;Config1&quot; -v V1.00.0 -S &quot;PC&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\HardwareConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\udbdef.br">
+    <Prerequisite ID="d:\programs\bandr49\as49\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" LastWriteTime="2020-08-10 04:29:50" />
+    <CommandLine Parameter="D:\Programs\BandR49\AS49\AS\TechnologyPackages\UnitSystem\n.d\Transfer\Modules\SG4\udbdef.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\udbdef.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iomap.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\iomap.iom" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\pvmap.vvm" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.sw" LastWriteTime="2023-12-13 17:49:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\channelconfiguration.xml" LastWriteTime="2023-12-13 15:20:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\iomap.br&quot; -T SG4 -B C4.90 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1.PC&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\tcdata\tcdata.imx">
+    <Prerequisite ID="d:\programs\bandr49\as49\as\technologypackages\textsystem\n.d\objectcatalog\elements\textconfig\template\tc.textconfig" LastWriteTime="2020-08-10 04:29:50" />
+    <CommandLine Parameter=" -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\TCData\TCData.imx&quot; -c &quot;D:\Programs\BandR49\AS49\AS\TechnologyPackages\TextSystem\n.d\ObjectCatalog\Elements\TextConfig\Template\TC.textconfig&quot; -I &quot;D:\Programs\BandR49\AS\System\C0490&quot; &quot;D:\Programs\BandR49\AS49\AS\TechnologyPackages\UnitSystem\n.d&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\tcdata\tcdata.s18d">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\tcdata\tcdata.imx" LastWriteTime="2023-12-13 15:20:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\TCData\TCData.imx&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\TCData\TCData.s18d&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\tcdata.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\tcdata\tcdata.s18d" LastWriteTime="2023-12-13 15:20:40" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\TCData\TCData.s18d&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\TCData.br&quot; -t TextModule" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\role.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\accessandsecurity\userrolesystem\role.role" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\Role.role&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Role.br&quot; -zip -B C4.90 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\user.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\accessandsecurity\userrolesystem\user.user" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\accessandsecurity\userrolesystem\role.role" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\User.user&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\User.br&quot; -zip -B C4.90 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\fwrules.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\accessandsecurity\firewall\rules.firewallrules" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\AccessAndSecurity\Firewall\Rules.firewallRules&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\FWRules.br&quot; -zip -B C4.90 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\urtkprg.ox" LastWriteTime="2023-12-13 18:28:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.per" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\variables.var" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-12-13 18:25:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-12-13 17:48:52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\URTKPrg.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\PC\LT.ofs&quot; -T SG4 -M IA32 -B C4.90 -G V4.1.2  -extConstants -r Cyclic1 -p 2 -s &quot;URTKFmu.URTKPrg&quot; -L &quot;AsIecCon: V*, astime: V*, operator: V*, runtime: V*, sys_lib: V*, URTKLib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\urtkprg.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\a.out" LastWriteTime="2023-12-13 18:28:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\variables.var" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-12-13 18:25:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-12-13 17:48:52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\URTKPrg.ox&quot; -T SG4 -r Cyclic1 -G V4.1.2  -B C4.90 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\a.out">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\cyclic.c.o" LastWriteTime="2023-12-13 18:28:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\init.c.o" LastWriteTime="2023-12-13 18:25:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\exit.c.o" LastWriteTime="2023-12-13 18:25:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\_bur_pvdef.c.o" LastWriteTime="2023-12-13 18:28:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\variables.var" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-12-13 18:25:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-12-13 17:48:52" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\Cyclic.c.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\Init.c.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\Exit.c.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\_bur_pvdef.c.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libURTKLib.a&quot; &quot;-Wl,D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\libsys_lib.a&quot; &quot;-Wl,D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\libastime.a&quot; &quot;-Wl,D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\libruntime.a&quot; &quot;-Wl,D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\liboperator.a&quot; -specs &quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\cyclic.c.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\cyclic.c" LastWriteTime="2023-12-13 18:28:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\variables.var" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-12-13 18:25:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-12-13 17:48:52" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plctypes.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plc.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\stdio.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\_ansi.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\newlib.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\config.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\ieeefp.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\stddef.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\stdarg.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\reent.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\_types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\lock.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\_types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\limits.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\syslimits.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\limits.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\features.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\stdio.h" LastWriteTime="2020-08-10 04:29:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKPrg\Cyclic.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\Cyclic.c.o&quot; -T SG4 -M IA32 -B C4.90 -G V4.1.2  -s &quot;URTKFmu.URTKPrg&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKPrg&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu\URTKPrg&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\init.c.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\init.c" LastWriteTime="2023-12-13 15:16:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\variables.var" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-12-13 18:25:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-12-13 17:48:52" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plctypes.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plc.h" LastWriteTime="2020-08-10 04:29:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKPrg\Init.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\Init.c.o&quot; -T SG4 -M IA32 -B C4.90 -G V4.1.2  -s &quot;URTKFmu.URTKPrg&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKPrg&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu\URTKPrg&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\exit.c.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\exit.c" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\variables.var" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-12-13 18:25:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-12-13 17:48:52" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plctypes.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plc.h" LastWriteTime="2020-08-10 04:29:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKPrg\Exit.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\Exit.c.o&quot; -T SG4 -M IA32 -B C4.90 -G V4.1.2  -s &quot;URTKFmu.URTKPrg&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKPrg&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu\URTKPrg&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\_bur_pvdef.c.o">
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.c" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\cyclic.c.o" LastWriteTime="2023-12-13 18:28:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\init.c.o" LastWriteTime="2023-12-13 18:25:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg\exit.c.o" LastWriteTime="2023-12-13 18:25:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtkprg\variables.var" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2023-12-13 18:25:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2023-12-13 17:48:52" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plctypes.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plc.h" LastWriteTime="2020-08-10 04:29:50" />
+    <CommandLine Parameter="&quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKPrg\_bur_pvdef.c.o&quot; -T SG4 -M IA32 -B C4.90 -G V4.1.2  -s &quot;URTKFmu.URTKPrg&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKPrg&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu\URTKPrg&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\urtklib.ox" LastWriteTime="2023-12-13 15:20:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\ansic.lby" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\sys_lib\sys_lib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\URTKLib.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\PC\LT.ofs&quot; -T SG4 -M IA32 -B C4.90 -G V4.1.2  -extConstants -d &quot;sys_lib: V* - V*&quot; -r Library -s &quot;URTKFmu.URTKLib&quot; -L &quot;AsIecCon: V*, astime: V*, operator: V*, runtime: V*, sys_lib: V*, URTKLib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\urtklib.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\a.out" LastWriteTime="2023-12-13 15:20:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\sys_lib\sys_lib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\URTKLib.ox&quot; -T SG4 -r Library -G V4.1.2  -B C4.90 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\a.out">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\fmi2.cpp.o" LastWriteTime="2023-12-13 15:20:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\urtkfmisceneview.c.o" LastWriteTime="2023-12-13 15:20:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\urtkimpl.c.o" LastWriteTime="2023-12-13 15:20:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\urtk_try.c.o" LastWriteTime="2023-12-13 15:20:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtklib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\types.typ" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\sys_lib\sys_lib.fun" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\fmi2.cpp.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\URTKFmiSceneView.c.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\URTKImpl.c.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\URTK_try.c.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\a.out&quot; &quot;-Wl,--version-script=$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libURTKLib.expmap&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\libsys_lib.a&quot; &quot;-Wl,D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\libastime.a&quot; &quot;-Wl,D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\libruntime.a&quot; &quot;-Wl,D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\liboperator.a&quot; -specs &quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; &quot;-Wl,D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\lib\libstdc++.a,D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\lib\libsupc++.a,D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\lib\libbur_cpp.a,D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\lib\libbur_cpp_rtk.a&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\fmi2.cpp.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\fmi2.cpp" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKLib\fmi2.cpp&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\fmi2.cpp.o&quot; -T SG4 -M IA32 -B C4.90 -G V4.1.2  -s &quot;URTKFmu.URTKLib&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -r Library -I &quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKLib&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu\URTKLib&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Libraries.h&quot; -D _URTKLIB_EXPORT -x c++ -P &quot;$(AS_PROJECT_PATH)&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\urtkfmisceneview.c.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtk\urtkfmisceneview.c" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plctypes.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plc.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\sys_lib.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\runtime.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\urtklib.h" LastWriteTime="2023-12-13 15:20:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\fmi2functions.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\fmi2typesplatform.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\fmi2functiontypes.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\stddef.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\stdlib.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\_ansi.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\newlib.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\config.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\ieeefp.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\reent.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\_types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\lock.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\stdlib.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\alloca.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\stdio.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\stdarg.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\_types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\limits.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\syslimits.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\limits.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\features.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\stdio.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\string.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\string.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\math.h" LastWriteTime="2020-08-10 04:29:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKLib\URTK\URTKFmiSceneView.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\URTKFmiSceneView.c.o&quot; -T SG4 -M IA32 -B C4.90 -G V4.1.2  -s &quot;URTKFmu.URTKLib&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -r Library -I &quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKLib&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu\URTKLib&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Libraries.h&quot; -D _URTKLIB_EXPORT -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\urtkimpl.c.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtk\urtkimpl.c" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plctypes.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plc.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\sys_lib.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\runtime.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\fmi2functions.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\fmi2typesplatform.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\fmi2functiontypes.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\stddef.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\stdlib.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\_ansi.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\newlib.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\config.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\ieeefp.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\reent.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\_types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\lock.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\stdlib.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\alloca.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\urtklib.h" LastWriteTime="2023-12-13 15:20:26" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKLib\URTK\URTKImpl.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\URTKImpl.c.o&quot; -T SG4 -M IA32 -B C4.90 -G V4.1.2  -s &quot;URTKFmu.URTKLib&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -r Library -I &quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKLib&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu\URTKLib&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Libraries.h&quot; -D _URTKLIB_EXPORT -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib\urtk_try.c.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtk\urtk_try.c" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\stdlib.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\_ansi.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\newlib.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\config.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\ieeefp.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\stddef.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\reent.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\_types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\lock.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\stdlib.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\alloca.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\stdio.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\stdarg.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\_types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\limits.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\lib\gcc\i386-elf\4.1.2\include\syslimits.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\limits.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\machine\types.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\features.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\stdio.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\string.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\sys\string.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\math.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\urtk\fmutemplate.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="d:\programs\bandr49\as49\as\gnuinst\v4.1.2\4.9\i386-elf\include\assert.h" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\fmi2functions.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\fmi2typesplatform.h" LastWriteTime="2021-01-10 15:35:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\urtkfmu\urtklib\fmi2functiontypes.h" LastWriteTime="2021-01-10 15:35:08" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKLib\URTK\URTK_try.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\URTKLib\URTK_try.c.o&quot; -T SG4 -M IA32 -B C4.90 -G V4.1.2  -s &quot;URTKFmu.URTKLib&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;D:\Programs\BandR49\AS49\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -r Library -I &quot;$(AS_PROJECT_PATH)\Logical\URTKFmu\URTKLib&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\URTKFmu\URTKLib&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Libraries.h&quot; -D _URTKLIB_EXPORT -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\sys_lib.br">
+    <Prerequisite ID="d:\programs\bandr49\as\system\c0490\sg4\ia32\sys_lib.br" LastWriteTime="2020-11-19 10:01:18" />
+    <CommandLine Parameter="D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\sys_lib.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\sys_lib.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\runtime.br">
+    <Prerequisite ID="d:\programs\bandr49\as\system\c0490\sg4\ia32\runtime.br" LastWriteTime="2020-11-19 10:01:18" />
+    <CommandLine Parameter="D:\Programs\BandR49\AS\System\C0490\SG4\Ia32\runtime.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\runtime.br" />
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\#cpu_tp.mak&quot; -k" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\pc\transfer.lst">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\ashwac.br" LastWriteTime="2023-12-13 15:20:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\sysconf.br" LastWriteTime="2023-12-13 15:20:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asfw.br" LastWriteTime="2023-12-13 15:20:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\ashwd.br" LastWriteTime="2023-12-13 15:20:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\arconfig.br" LastWriteTime="2023-12-13 15:20:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\udbdef.br" LastWriteTime="2020-08-10 04:29:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iomap.br" LastWriteTime="2023-12-13 15:20:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\tcdata.br" LastWriteTime="2023-12-13 15:20:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\role.br" LastWriteTime="2023-12-13 15:20:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\user.br" LastWriteTime="2023-12-13 15:20:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\fwrules.br" LastWriteTime="2023-12-13 15:20:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtkprg.br" LastWriteTime="2023-12-13 18:28:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\urtklib.br" LastWriteTime="2023-12-13 15:20:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\sys_lib.br" LastWriteTime="2020-11-19 10:01:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\runtime.br" LastWriteTime="2020-11-19 10:01:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.sw" LastWriteTime="2023-12-13 17:49:40" />
+    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\URTKtry3.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;D:\Programs\BandR49\AS49&quot; -S &quot;PC&quot; -A &quot;AR000&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\Cpu.sw&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -M IA32 -T SG4" />
+  </Rule>
+</RuleSetOptions>

@@ -1,0 +1,11 @@
+VAR
+	URTK1 : URTK := (0);
+	URTKView_0 : URTKView := (0);
+	urtk_out : URTK;
+	sensorX1 : USINT;
+	sensorX2 : USINT;
+	sensorY1 : USINT;
+	sensorY2 : USINT;
+	sensorZ1 : USINT;
+	sensorZ2 : USINT;
+END_VAR

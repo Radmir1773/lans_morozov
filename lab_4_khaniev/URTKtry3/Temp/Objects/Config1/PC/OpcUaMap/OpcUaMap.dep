@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/URTKFmu/URTKPrg/Variables.var
+$(AS_PROJECT_PATH)/Physical/Config1/PC/Cpu.sw
+$(AS_PROJECT_PATH)/Logical/URTKFmu/URTKLib/URTKLib.fun
+$(AS_PROJECT_PATH)/Logical/URTKFmu/URTKLib/Types.typ

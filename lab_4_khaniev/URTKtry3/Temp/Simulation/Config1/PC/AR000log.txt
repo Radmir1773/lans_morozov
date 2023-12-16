@@ -1,0 +1,21 @@
+Wed Dec 13 19:27:10 2023
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Wed Dec 13 19:27:10 2023
+No ARsim registration found!
+
+Wed Dec 13 19:27:10 2023
+InstanceName: 01da2de138aaa550
+
+Wed Dec 13 19:27:10 2023
+WorkingDirectory: D:\govno\URTK_sim-main\URTKtry3\Temp\Simulation\Config1\PC\
+
+Wed Dec 13 19:27:10 2023
+COMMAND_COLDSTART
+
+Wed Dec 13 19:27:12 2023
+Version: C4.90
+
+Wed Dec 13 19:27:19 2023
+COMMAND_TERMINATE
+

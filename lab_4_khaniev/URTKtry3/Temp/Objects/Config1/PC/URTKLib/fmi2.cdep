@@ -1,0 +1,2 @@
+$(AS_CPU_PATH)/urtklib/fmi2.cpp.o:
+$(AS_PROJECT_PATH)/logical/urtkfmu/urtklib/fmi2.cpp

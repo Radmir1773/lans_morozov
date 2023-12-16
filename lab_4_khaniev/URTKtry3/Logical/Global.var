@@ -1,0 +1,13 @@
+VAR
+	j : INT := 0;
+	buffer : STRING[80] := '';
+	temp : STRING[80] := 'G0 X100 Y100 Z100 F10';
+	y_real : REAL := 0;
+	z_real : REAL := 0;
+	x_real : REAL := 0;
+	i : INT := 0;
+	out : CNC;
+	working : BOOL := FALSE;
+	homing : BOOL;
+	y : INT := 0;
+END_VAR
